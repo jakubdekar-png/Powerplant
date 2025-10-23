@@ -19,7 +19,7 @@ public class App {
         System.out.println("Informace o jaderné elektrárně 1: " + formatPlantDetails(plant1));
         System.out.println("Informace o jaderné elektrárně 2: " + formatPlantDetails(plant2));
     }
-
+    // Metoda pro formátování detailů jaderné elektrárny
     private static String formatPlantDetails(NuclearPowerPlant plant) {
         return String.format(
             "%s | %s | %s | %s | %s",

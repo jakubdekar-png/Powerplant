@@ -14,7 +14,6 @@ public class NuclearReactor {
     public void setHeatOutput(double heatOutput) {
         this.heatOutput = heatOutput;
     }
-
     public boolean isRequiresHeavyWater() {
         return requiresHeavyWater;
     }
